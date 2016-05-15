@@ -1,7 +1,14 @@
 import {Component} from '@angular/core';
+import { TeamsComponent } from './teams/teams.component';
+import { NavComponent } from './nav/nav.component';
 
 @Component({
+    moduleId: module.id,
     selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1>'
+    templateUrl: 'app.component.html',
+    styleUrls: ['app.component.css'],
+    directives: [TeamsComponent, NavComponent]
 })
-export class AppComponent { }
+export class AppComponent {
+    title: string = 'eRank';
+ }

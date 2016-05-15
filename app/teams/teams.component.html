@@ -1,0 +1,18 @@
+<table class="ui stripped table">
+    <thead>
+        <th>Name</th>
+        <th>City</th>
+        <th>Country</th>
+        <th>League</th>
+        <th>Details</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let team of teams">
+            <td>{{team.name}}</td>
+            <td>{{team.town}}</td>
+            <td>{{team.country}}</td>
+            <td>{{team.leagueName}}</td>
+            <td><team-card [id]="'57268b9852ff3a8e10433223'"></team-card></td>
+        </tr>
+    </tbody>
+</table>

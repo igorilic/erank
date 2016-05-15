@@ -1,0 +1,9 @@
+table thead {
+  border-bottom: 1px solid #3d3d3d; }
+
+table th {
+  padding-left: 10px;
+  text-align: left; }
+
+table td {
+  text-align: left; }
